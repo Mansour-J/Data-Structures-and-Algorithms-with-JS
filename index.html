@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!-- HTML5 Hello world by kirupa - http://www.kirupa.com/html5/getting_your_feet_wet_html5_pg1.htm -->
+<html lang="en-us" style="background-color:black;">
+
+<head>
+<meta charset="utf-8">
+<title>Hello..JS data structures and algorithms  edting </title>
+
+</head>
+
+<body >
+
+<script>
+    
+    function Stack (){
+  this.dataStore = [] ;
+  this.top = 0 ;
+  this.push = function (element){
+  this.dataStore[this.top++]=element; 
+  }
+  this.peek = function (){
+   return this.dataStore[this.top-1];
+  }
+}
+
+
+var s = new Stack ();
+
+s.push ('1');
+s.push ('2');
+//console.log(s.peek());
+
+    
+    
+</script>
+
+<script src="tree.js"></script>
+
+
+
+</body>
+</html>
