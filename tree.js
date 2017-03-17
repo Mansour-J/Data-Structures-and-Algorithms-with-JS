@@ -19,6 +19,7 @@ function BST(){   // tree structure
     this.min = min ; 
     this.find  = find ; 
     this.remove = remove; 
+
 }
 
 function insert(data){
