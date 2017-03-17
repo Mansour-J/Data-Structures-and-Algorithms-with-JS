@@ -6,7 +6,7 @@ function Node (data,left, right){ // node constructor
     this.show = show ;
 }
 
-function show (){
+function show (){  // rock is here 
     return this.data;
 }
 function BST(){   // tree structure 
