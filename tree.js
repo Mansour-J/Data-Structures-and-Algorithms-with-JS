@@ -1,4 +1,4 @@
-
+/*
 function Node (data,left, right){ // node constructor
     this.data = data ;
     this.left=left;
@@ -170,3 +170,4 @@ nums.insert(22);
 console.log("Inorder traversal: ");
 inOrder(nums.root);
 
+*/
