@@ -47,7 +47,7 @@ function partitionLayout (array , n){
 
 /*
 A, B, C, D, E, F
-N=2 : AB,      BC,      CD,       DE,       EF,       FA,
+N=2 : AB,      BC,      CD,       DE,       EF,       FA,   
 N=3 : ABC,     BCD ,    CDE,      DEF,      EFA,      FAB 
 N=4 : ABCD,    BCDE,    CEDF,     DEFA,     EFAB,     FABC
 N=5 : ABCDE,   BCDEF,   CDEFA ,   DEFAB ,   EFABC,    FABCD
@@ -57,3 +57,7 @@ N=7 : ABCDEFA, BCDEFAB, CDEFABC,  DEFABCD,  EFABCDE,  FABCDEF
 N=8 : ABCDEFAB,BCDEFABC,CDEFABCD, DEFABCDE, EFABCDEF, FABCDEFA   
 
 */
+
+
+one is eventually consistent
+
