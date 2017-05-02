@@ -56,8 +56,40 @@ N=6 : ABCDEF,  BCDEFA,  CDEFAB,   DEFABC,   EFABCD,   FABCDE
 N=7 : ABCDEFA, BCDEFAB, CDEFABC,  DEFABCD,  EFABCDE,  FABCDEF 
 N=8 : ABCDEFAB,BCDEFABC,CDEFABCD, DEFABCDE, EFABCDEF, FABCDEFA   
 
+
+
+
+var removeDuplicates = function(nums) {
+    var newArray = [] ;    var  uni = [] ; 
+    for (var i= 0;  i< nums.length ; i++){
+                getUniq( nums[i], uni )
+    }
+    return uni ; 
+};
+
+var getUniq = function  (item, uni) {
+    if (uni.indexOf(item)==-1)
+       uni.push(item) ; 
+}
+
+
+var nums = [1,1,2];
+ console.log(removeDuplicates(nums)) ; 
 */
+var remove = function (nums){
+    
+        if (nums.length == 0) return 0;
+    var i = 0;
+    for (var j = 1; j < nums.length; j++) {
+        if (nums[j] != nums[i]) {
+            i++;
+            nums[i] = nums[j];
+        }
+    }
+    return nums ;
+}
 
 
-one is eventually consistent
 
+var nums = [1,1,2,2,3,4,5,6];
+ console.log(remove(nums)) ; 
