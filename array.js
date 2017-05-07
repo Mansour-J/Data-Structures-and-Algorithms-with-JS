@@ -77,10 +77,10 @@ var onePartition = function (nodes,n){
                p+= nodes[i] ;
     }
     
-     return p ;
+     return p.split('`') ;
     
 }
-getAllHashingLayout(["A","B","C","D","E","F"], 8);
+getAllHashingLayout(["A11","B22","C33","D44","E55","F66"], 8);
 /*
 A, B, C, D, E, F
 N=2 : AB,      BC,      CD,       DE,       EF,       FA,   
